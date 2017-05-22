@@ -4,7 +4,7 @@ import domain.GraphObject._
 import org.scalatest.FlatSpec
 
 
-class NonEmptyInMemorySpec extends FlatSpec with InitGraph {
+class InMemoryGraphSpec extends FlatSpec with InitGraph {
 
   val graph = new InMemoryGraph
 
